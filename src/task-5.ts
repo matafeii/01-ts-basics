@@ -1,4 +1,13 @@
-// Task 5
-// Add the solution for the fifth task in this file.
+function logStatus(status: 'loading' | 'success' | 'error'): void {
+  if (status === 'loading') {
+    console.log('Loading...');
+  } else if (status === 'success') {
+    console.log('Success!');
+  } else if (status === 'error') {
+    console.log('Something went wrong');
+  }
+}
+
+logStatus('loading');
 
 export {};

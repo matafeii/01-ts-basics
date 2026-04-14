@@ -1,4 +1,15 @@
-// Task 2
-// Add the solution for the second task in this file.
+interface Product {
+  readonly id: number;
+  title: string;
+  description?: string;
+}
+
+const product: Product = {
+  id: 1,
+  title: 'Tablet',
+  description: 'Compact and fast',
+};
+
+console.log(`Product: ${JSON.stringify(product)}`);
 
 export {};

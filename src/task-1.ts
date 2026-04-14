@@ -1,4 +1,9 @@
-// Task 1
-// Add the solution for the first task in this file.
+const name: string = 'Alice';
+const age: number = 30;
+const isOnline: boolean = true;
+
+console.log(`Name: ${name}`);
+console.log(`Age: ${age}`);
+console.log(`Online: ${isOnline}`);
 
 export {};
